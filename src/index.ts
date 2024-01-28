@@ -2,7 +2,7 @@ import * as express from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as fsAsync from 'fs/promises'
-import { parse, parseLines, stringify } from 'dot-properties';
+import { parse, parseLines } from 'dot-properties';
 const cds = require('@sap/cds-dk');
 
 const cdsLaunchpadLogger = cds.log('cds-launchpad-plugin');

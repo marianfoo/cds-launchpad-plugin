@@ -2,8 +2,6 @@ import * as express from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as fsAsync from 'fs/promises'
-import * as appindex from '@sap/cds/app/index'
-//import * as cds from '@sap/cds-dk';
 import { parse, parseLines, stringify } from 'dot-properties';
 const cds = require('@sap/cds-dk');
 
